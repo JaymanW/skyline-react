@@ -1,6 +1,6 @@
 #Activities {
     padding-top: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 
     .Activities-wrapper {
         max-width: 1100px;
@@ -63,6 +63,7 @@
 @media only screen and (min-width: 768px) {
     #Activities {
         padding-top: 2rem;
+        padding-bottom: 3rem;
     
         .Activities-wrapper {
             max-width: 1100px;
@@ -136,9 +137,10 @@
     } 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
     #Activities {
         padding-top: 2rem;
+        padding-bottom: 3rem;
     
         .Activities-wrapper {
             max-width: 1100px;
@@ -189,7 +191,7 @@
                         display: block;
                         padding: 0.5rem 1rem;
                         margin-top: 1rem;
-                        font-size: 0.8rem;
+                        font-size: 1rem;
                         width: max-content;
                         border-radius: 25px;
                     }
