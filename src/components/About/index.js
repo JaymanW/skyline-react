@@ -11,7 +11,7 @@ function About() {
                     <p>
                     For the last 60 years we have been the premier place for family-friendly fun in Rochester, Minnesota. From Go-karts to Mini Golf, we have activities for people of all ages and gaurentee you’ll have a blast. Check out our <a href="#">activies</a> and <a href="#">plan your visit</a> today.
                     </p>
-                    <a>
+                    <a href="#">
                         GET STARTED
                     </a>
                 </div>

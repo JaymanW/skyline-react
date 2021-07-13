@@ -49,7 +49,7 @@ function App() {
       <Nav newNavStyle={newNavStyle} onBurger={handleOpen} isOpen={isOpen} windowWidth={windowWidth} />
       <Landing />
       <ActivitiesTeaser />
-      {/* <About /> */}
+      <About />
     </div>
   );
 }
