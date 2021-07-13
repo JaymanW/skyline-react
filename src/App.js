@@ -9,6 +9,7 @@ import About from './components/About'
 import FunBanner from './components/FunBanner';
 import Activities from './components/Activities';
 import Visit from './components/Visit';
+import Location from './components/Location';
 
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
       <FunBanner />
       <Activities />
       <Visit />
+      <Location windowWidth={windowWidth} />
     </div>
   );
 }

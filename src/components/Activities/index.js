@@ -19,7 +19,7 @@ function Activities() {
                     <img src="./miniGolf.png" />
                     <div className="text-cnt">
                         <h3>Mini Golf</h3>
-                        <p>Skyline brings you more great fun with mini-golf! Take on our nine-hole course with a great variety of shots. Mini-golf is fun for all ages and will have everyone in the family having a great time!</p>
+                        <p>Skyline brings you more great fun with mini-golf! Take on our nine-hole course with a great variety of shots. Mini-golf is fun for all ages and will have everyone in the family having a great time! We offer free mini-golf for Veterans, Police, and Fire Department personnel.</p>
                         <a href="#">PRICING</a>
                     </div>
                 </div>
