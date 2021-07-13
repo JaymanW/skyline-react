@@ -15,7 +15,6 @@ function About() {
                         GET STARTED
                     </a>
                 </div>
-                
             </div>
         </div>
     )

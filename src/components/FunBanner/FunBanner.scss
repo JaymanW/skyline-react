@@ -1,0 +1,117 @@
+#FunBanner {
+    font-family: "Raleway", sans-serif;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+
+    .FunBanner-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        h2 {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+        
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.7rem;
+            border: 2px solid #fff;
+            padding: 0.5rem 0.75rem;
+            display: inline-block;
+            transition: all 0.3s ease-in-out;
+            margin: 0 auto;
+            margin-top: 0.5rem;
+        
+            &:hover {
+                background: #fff;
+                color: #000;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #FunBanner {
+        font-family: "Raleway", sans-serif;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0;
+    
+        .FunBanner-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            h2 {
+                color: #fff;
+                font-size: 2rem;
+            }
+            
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 0.9rem;
+                border: 2px solid #fff;
+                padding: 0.5rem 0.75rem;
+                display: inline-block;
+                transition: all 0.3s ease-in-out;
+                margin: 0 auto;
+                margin-top: 0.5rem;
+            
+                &:hover {
+                    background: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #FunBanner {
+        font-family: "Raleway", sans-serif;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+    
+        .FunBanner-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            h2 {
+                color: #fff;
+                font-size: 2.5rem;
+            }
+            
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 1rem;
+                border: 2px solid #fff;
+                padding: 0.5rem 0.75rem;
+                display: inline-block;
+                transition: all 0.3s ease-in-out;
+                margin: 0 auto;
+                margin-top: 0.5rem;
+            
+                &:hover {
+                    background: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

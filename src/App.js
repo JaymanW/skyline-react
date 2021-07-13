@@ -6,6 +6,7 @@ import Nav from './components/Nav'
 import Landing from './components/Landing'
 import ActivitiesTeaser from './components/ActivitiesTeaser'
 import About from './components/About'
+import FunBanner from './components/FunBanner';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
       <Landing />
       <ActivitiesTeaser />
       <About />
+      <FunBanner />
     </div>
   );
 }
