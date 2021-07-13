@@ -1,6 +1,7 @@
 #Location {
     padding-top: 1.5rem;
     font-family: "Raleway", sans-serif;
+    padding-bottom: 1.5rem;
 
     h2 {
         text-align: center;
@@ -40,6 +41,59 @@
         iframe {
             width: 100%;
             margin-top: 1rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #Location {
+        padding-top: 1.5rem;
+        font-family: "Raleway", sans-serif;
+    
+        h2 {
+            text-align: left;
+        }
+    
+        .Location-wrapper {
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .Location-text {
+                max-width: 350px;
+
+                .address-cnt {
+                    margin: 0;
+                    display: flex;
+                    width: 90%;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 0.75rem;
+    
+                    img {
+                        width: 23px;
+                    }
+    
+                    p {
+                        margin-left: 0.75rem;
+                    }
+                }
+    
+                & > p {
+                    margin-top: 1rem;
+                    text-align: center;
+                    text-align: left;
+                }
+            }
+    
+            iframe {
+                max-width: 425px;
+                margin-top: 0;
+                margin-left: 1.5rem;
+            }
         }
     }
 }
