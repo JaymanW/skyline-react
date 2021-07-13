@@ -6,7 +6,7 @@ import VideoBackground from '../VideoBackground'
 function Landing() {
     return (
         <div id="Landing">
-            <VideoBackground source="./smallerdarker.mp4" height="90" />
+            <VideoBackground source="./smallerdarker.mp4" height="80" />
             <div className="Landing-wrapper">
                 <h1>Skyline Raceway</h1>
                 <p>Let the fun begin.</p>

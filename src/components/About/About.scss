@@ -1,0 +1,23 @@
+#About {
+    margin-top: 2rem;
+    
+    .About-wrapper {
+        width: 90%;
+        max-width: 1100px;
+        margin: 0 auto;
+        font-family: "Raleway", sans-serif;
+
+        .about-text-cnt {
+            text-align: center;
+            margin-top: 1rem;
+            
+            h2 {
+
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
