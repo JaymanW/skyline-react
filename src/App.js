@@ -4,6 +4,7 @@ import './App.scss';
 import Sidebar from './components/Sidebar'
 import Nav from './components/Nav'
 import Landing from './components/Landing'
+import ActivitiesTeaser from './components/ActivitiesTeaser'
 import About from './components/About'
 
 
@@ -26,7 +27,7 @@ function App() {
 
   useEffect(() => {
     // console.log(windowScroll)
-    if (windowScroll >= 300) {
+    if (windowScroll >= 50) {
       setNewNaveStyle(true);
     } else {
       setNewNaveStyle(false);
@@ -47,7 +48,8 @@ function App() {
       <Sidebar isOpen={isOpen} onBurger={handleOpen} windowWidth={windowWidth} />
       <Nav newNavStyle={newNavStyle} onBurger={handleOpen} isOpen={isOpen} windowWidth={windowWidth} />
       <Landing />
-      <About />
+      <ActivitiesTeaser />
+      {/* <About /> */}
     </div>
   );
 }

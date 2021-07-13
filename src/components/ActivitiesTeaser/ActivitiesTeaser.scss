@@ -1,0 +1,124 @@
+#ActivitiesTeaser {
+    margin-top: 1rem;
+    width: 100%;
+
+    .ActivitiesTeaser-wrapper {
+        max-width: 1100px;
+        width: 90%;
+        margin: 0 auto;
+
+        .teaser-cnt {
+            width: 250px;
+            height: 250px;
+            // width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            color: #fff;
+            font-family: "Raleway", sans-serif;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: 700;
+
+            &:nth-child(1) {
+                background: url(./blueGokart.png) no-repeat center/cover;
+            }
+
+            &:nth-child(2) {
+                margin-top: 1rem;
+                background: url(./greenMiniGolf.png) no-repeat center/cover;
+            }
+
+            &:nth-child(3) {
+                margin-top: 1rem;
+                background: url(./orangePanning.png) no-repeat center/cover;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #ActivitiesTeaser {
+        margin-top: 2rem;
+        width: 100%;
+    
+        .ActivitiesTeaser-wrapper {
+            max-width: 1100px;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .teaser-cnt {
+                width: 200px;
+                height: 200px;
+                // width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                color: #fff;
+                font-family: "Raleway", sans-serif;
+                text-decoration: none;
+                font-size: 1.5rem;
+                font-weight: 700;
+    
+                // &:nth-child(1) {
+                // }
+    
+                &:nth-child(2) {
+                    margin-top: 0;
+                }
+    
+                &:nth-child(3) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #ActivitiesTeaser {
+        margin-top: 2rem;
+        width: 100%;
+        padding-bottom: 2rem;
+    
+        .ActivitiesTeaser-wrapper {
+            max-width: 1100px;
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .teaser-cnt {
+                width: 300px;
+                height: 250px;
+                // width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                color: #fff;
+                font-family: "Raleway", sans-serif;
+                text-decoration: none;
+                font-size: 1.5rem;
+                font-weight: 700;
+    
+                // &:nth-child(1) {
+                // }
+    
+                &:nth-child(2) {
+                    margin-top: 0;
+                }
+    
+                &:nth-child(3) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

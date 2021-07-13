@@ -10,7 +10,8 @@ export const SidebarContainer = styled.aside`
     background: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
-    padding-top: 14vh;
+    /* padding-top: 14vh; */
+    padding-top: ${({ isOpen }) => (isOpen ? '14vh' : '0')};
     padding-bottom: 1rem;
     top: -13%;
     right: 0;
