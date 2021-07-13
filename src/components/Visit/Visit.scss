@@ -1,0 +1,68 @@
+#Visit {
+    padding-top: 1.5rem;
+    background: #f7f7f7;
+
+    .bold {
+        font-weight: 600;
+    }
+
+    .Visit-wrapper {
+        max-width: 1100px;
+        width: 90%;
+        margin: 0 auto;
+        font-family: "Raleway", sans-serif;
+
+        h2 {
+            text-align: center;
+        }
+
+        h4 {
+            text-decoration: underline;
+        }
+
+        a {
+            color: #000;
+        }
+
+        .text-cnt {
+            margin-top: 1rem;
+
+            h3 {
+                font-size: 1.25rem;
+            }
+
+            p {
+                margin-top: 0.5rem;
+            }
+
+            .list {
+                margin-top: 1rem;
+
+                ul {
+                    list-style: square;
+
+                    li {
+                        margin-left: 1rem;
+                    }
+                }
+                
+            }
+
+            &:nth-child(n+3) {
+                margin-top: 1rem;
+            }
+
+            .text-box {
+                margin-top: 0.75rem;
+            }
+        }
+
+        .divider-a {
+            margin-top: 1rem;
+        }
+
+        .divider-b {
+            margin-top: 1rem;
+        }
+    }
+}

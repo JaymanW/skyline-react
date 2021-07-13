@@ -8,6 +8,7 @@ import ActivitiesTeaser from './components/ActivitiesTeaser'
 import About from './components/About'
 import FunBanner from './components/FunBanner';
 import Activities from './components/Activities';
+import Visit from './components/Visit';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
       <About />
       <FunBanner />
       <Activities />
+      <Visit />
     </div>
   );
 }
