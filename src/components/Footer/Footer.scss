@@ -1,0 +1,66 @@
+#Footer {
+    background: #000;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Footer-wrapper {
+        p {
+            font-size: 0.8rem;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #Footer {
+        background: #000;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        text-align: center;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .Footer-wrapper {
+            p {
+                font-size: 0.9rem;
+    
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #Footer {
+        background: #000;
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        text-align: center;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .Footer-wrapper {
+            p {
+                font-size: 1rem;
+    
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

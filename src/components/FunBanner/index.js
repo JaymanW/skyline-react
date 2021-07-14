@@ -6,7 +6,7 @@ function FunBanner() {
         <div id="FunBanner">
             <div className="FunBanner-wrapper">
                 <h2>FUN AWAITS</h2>
-                <a href="#">PLAN YOUR VISIT</a>
+                <a href="#Visit">PLAN YOUR VISIT</a>
             </div>
         </div>
     )

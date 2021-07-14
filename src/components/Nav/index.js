@@ -26,13 +26,13 @@ function Nav(props) {
                                 <a style={{color: props.newNavStyle === true ? '#000' : '#fff', transition: 'all 0.4s ease-in-out'}} href="#About">ABOUT US</a>
                             </li>
                             <li>
-                                <a style={{color: props.newNavStyle === true ? '#000' : '#fff', transition: 'all 0.4s ease-in-out'}} href="#Services">ACTIVITIES</a>
+                                <a style={{color: props.newNavStyle === true ? '#000' : '#fff', transition: 'all 0.4s ease-in-out'}} href="#Activities">ACTIVITIES</a>
                             </li>
                             <li>
-                                <a style={{color: props.newNavStyle === true ? '#000' : '#fff', transition: 'all 0.4s ease-in-out'}} href="#Work">PRICING</a>
+                                <a style={{color: props.newNavStyle === true ? '#000' : '#fff', transition: 'all 0.4s ease-in-out'}} href="#Visit">PRICING</a>
                             </li>
                             <li>
-                                <a style={{color: props.newNavStyle === true ? '#000' : '#fff', transition: 'all 0.4s ease-in-out', border: props.newNavStyle === true ? '2px solid #000' : '2px solid #fff' }} href="#contact-wrapper" className="contact-btn">CONTACT</a>
+                                <a style={{color: props.newNavStyle === true ? '#000' : '#fff', transition: 'all 0.4s ease-in-out', border: props.newNavStyle === true ? '2px solid #000' : '2px solid #fff' }} href="#Contact" className="contact-btn">CONTACT</a>
                             </li>
                         </ul>
                     </nav>

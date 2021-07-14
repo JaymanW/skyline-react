@@ -8,9 +8,9 @@ function Sidebar(props) {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink href="#About" onClick={props.onBurger} >ABOUT US</SidebarLink>
-                    <SidebarLink href="#Services" onClick={props.onBurger} >ACTIVITIES</SidebarLink>
-                    <SidebarLink href="#Work" onClick={props.onBurger} >PRICING</SidebarLink>
-                    <SidebarLink href="#contact-wrapper" onClick={props.onBurger} className="contact-btn" style={{color: '#fff'}}>CONTACT US</SidebarLink>
+                    <SidebarLink href="#Activities" onClick={props.onBurger} >ACTIVITIES</SidebarLink>
+                    <SidebarLink href="#Visit" onClick={props.onBurger} >PRICING</SidebarLink>
+                    <SidebarLink href="#Contact" onClick={props.onBurger} className="contact-btn" style={{color: '#fff'}}>CONTACT US</SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

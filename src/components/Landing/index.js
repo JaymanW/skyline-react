@@ -11,10 +11,10 @@ function Landing() {
                 <h1>Skyline Raceway</h1>
                 <p>Let the fun begin.</p>
                 <div className="landing-btn-cnt">
-                    <a href="#" >
+                    <a href="#About" >
                         ABOUT US
                     </a>
-                    <a href="#" >
+                    <a href="#Visit" >
                         PLAN YOUR VISIT
                     </a>
                 </div>

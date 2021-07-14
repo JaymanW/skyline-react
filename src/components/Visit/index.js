@@ -66,7 +66,7 @@ function Visit() {
                         <p>No pets allowed.</p>
                         <p>In order to keep ticket prices low, we only accept <span className="bold">CASH</span> and <span className="bold">CREDIT CARDS</span> as forms of payment. Debit cards & checks will not be accepted</p>
                         <p>Children must be 54” or taller to drive a go-kart. If they are smaller than 54”, they may ride along in a double kart with an adult.</p>
-                        <p>Our facility is <span className="bold">dependent on good weather</span>. Please check the weather or <a href="#">contact us</a> to see what the weather is currently doing in our area.</p>
+                        <p>Our facility is <span className="bold">dependent on good weather</span>. Please check the weather or <a href="#Contact">contact us</a> to see what the weather is currently doing in our area.</p>
                         <hr className="divider-a" />
                     </div>
 

@@ -11,6 +11,7 @@ import Activities from './components/Activities';
 import Visit from './components/Visit';
 import Location from './components/Location';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
       <Visit />
       <Location windowWidth={windowWidth} />
       <Contact />
+      <Footer />
     </div>
   );
 }
