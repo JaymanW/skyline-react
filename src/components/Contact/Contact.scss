@@ -1,0 +1,154 @@
+#Contact {
+    min-height: 60vh;
+    background-image: url(./contactBackground.png);
+    background-size: cover;
+    background-position: 50% 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Contact-wrapper {
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        width: 90%;
+        max-width: 1100px;
+        text-align: center;
+
+        h2 {
+            text-align: center;
+        }
+
+        .Contact-cnt {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+
+            
+            img {
+                width: 40px;
+            }
+
+            p {
+                margin-left: 0.75rem;
+                font-size: 1.1rem;
+            }
+
+            &:nth-child(n+2) {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #Contact {
+        min-height: 60vh;
+        background-image: url(./contactBackground.png);
+        background-size: cover;
+        background-position: 50% 100px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .Contact-wrapper {
+            font-family: "Raleway", sans-serif;
+            color: #fff;
+            width: 90%;
+            max-width: 1100px;
+            text-align: center;
+    
+            h2 {
+                text-align: center;
+                font-size: 2rem;
+            }
+
+            & > p {
+                margin-top: 0.25rem;
+            }
+    
+            .Contact-cnt {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 80%;
+                max-width: 300px;
+                margin: 0 auto;
+    
+                
+                img {
+                    width: 40px;
+                }
+    
+                p {
+                    margin-left: 0.75rem;
+                    font-size: 1.25rem;
+                }
+    
+                &:nth-child(n+2) {
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #Contact {
+        min-height: 60vh;
+        background-image: url(./contactBackground.png);
+        background-size: cover;
+        background-position: 50% 100px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .Contact-wrapper {
+            font-family: "Raleway", sans-serif;
+            color: #fff;
+            width: 90%;
+            max-width: 1100px;
+            text-align: center;
+    
+            h2 {
+                text-align: center;
+                font-size: 2.5rem;
+            }
+
+            & > p {
+                margin-top: 0.25rem;
+                font-size: 1.1rem;
+            }
+    
+            .Contact-cnt {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 80%;
+                max-width: 300px;
+                margin: 0 auto;
+    
+                
+                img {
+                    width: 45px;
+                }
+    
+                p {
+                    margin-left: 0.75rem;
+                    font-size: 1.25rem;
+                }
+    
+                &:nth-child(n+2) {
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+    }
+}

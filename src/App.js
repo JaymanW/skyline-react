@@ -10,6 +10,7 @@ import FunBanner from './components/FunBanner';
 import Activities from './components/Activities';
 import Visit from './components/Visit';
 import Location from './components/Location';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
       <Activities />
       <Visit />
       <Location windowWidth={windowWidth} />
+      <Contact />
     </div>
   );
 }
