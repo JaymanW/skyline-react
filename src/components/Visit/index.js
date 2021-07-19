@@ -83,8 +83,13 @@ function Visit() {
                         </div>
 
                         <div className="text-box">
+                            <h4>Family Pack</h4>
+                            <p>4 single go-kart tickets and 4 games of mini-golf for $55.00 (tax included).</p>
+                        </div>
+
+                        <div className="text-box">
                             <h4>Party Pack</h4>
-                            <p>10 single go-kart tickets and five games of mini-golf for $98.00 (tax included).</p>
+                            <p>10 single go-kart tickets and 5 games of mini-golf for $98.00 (tax included).</p>
                         </div>
 
                         <div className="text-box">

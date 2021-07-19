@@ -11,7 +11,7 @@ function Activities() {
                     <img src="./gokart.jpg" alt="photo of man go-karting"/>
                     <div className="text-cnt">
                         <h3>Go-Karting</h3>
-                        <p>Skyline Raceway offers the best in go-karting in southeast Minnesota. 9 hp engine J&J karts on our quarter-mile asphalt track will give you the ultimate driving experience. Double karts are available for adults taking children under 54 inches. Come experience the twists and turns of our beautiful course and race your friends to the finish!</p>
+                        <p>Skyline Raceway offers the best in go-karting in southeast Minnesota. 6 1/2 hp engine J&J karts on our quarter-mile asphalt track will give you the ultimate driving experience. Double karts are available for adults taking children under 54 inches. Come experience the twists and turns of our beautiful course and race your friends to the finish!</p>
                         <a href="#Visit">PRICING</a>
                     </div>
                 </div>
