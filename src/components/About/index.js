@@ -5,7 +5,7 @@ function About() {
     return (
         <div id="About">
             <div className="About-wrapper">
-                <img src="./about.jpg" />
+                <img src="./about.jpg" alt="Photo of the main Skyline Raceway building"/>
                 <div className="about-text-cnt">
                     <h2>About Us</h2>
                     <p>

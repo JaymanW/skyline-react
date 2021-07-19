@@ -10,7 +10,7 @@ function Location() {
                 <div className="Location-text">
                     <h2>Location/Directions</h2>
                     <div className="address-cnt">
-                        <img src='./location.png' />
+                        <img src='./location.png' alt="location icon" />
                         <p>2248 40th Street Southwest Rochester, MN 55902</p>
                     </div>
                     <p>We are located at 2248 40th St. SW, Rochester, MN. From Rochester, go south on Broadway (Hwy 63), take the 40th St Exit, turn right on 40th St. SW, go about 1.5 miles and look for the Skyline Raceway sign on the left side.</p>
