@@ -9,9 +9,9 @@ function Visit() {
                 <div className="visit-column">
                     <div className="text-cnt">
                         <h3>Hours/Availability</h3>
-                        <p>We are open May 23 through Labor Day. Weekends only for the month of September.</p>
-                        <p><span className='bold'>Monday - Saturday:</span> 12:00pm-7:30pm</p>
-                        <p><span className='bold'>Sunday:</span> 12:00pm-6:00pm</p>
+                        <p>We are only open on weekends for the month of September.</p>
+                        <p><span className='bold'>Saturday:</span> 12:00pm-6:00pm</p>
+                        <p><span className='bold'>Sunday:</span> 12:00pm-5:00pm</p>
                         <hr className="divider-a" />
                     </div>
 
